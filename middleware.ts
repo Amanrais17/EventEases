@@ -8,7 +8,9 @@ export default authMiddleware({
     '/api/webhook/stripe',
     '/api/uploadthing',
     '/assets/images/logo.svg', // Add this line
-    '/favicon.ico' // Add this line
+    '/favicon.ico', // Add this line
+    '/assets/images/hero.png',
+    '/assets/icons/search.svg'
   ],
   ignoredRoutes: [
     '/api/webhook/clerk',
